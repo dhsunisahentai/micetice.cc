@@ -146,7 +146,7 @@ local IndependentPanelFrame = Instance.new("Frame", IndependentPanelGui)
 IndependentPanelFrame.Name = "PanelFrame"; IndependentPanelFrame.Size = UDim2.fromOffset(160, 100);
 IndependentPanelFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30); IndependentPanelFrame.BackgroundTransparency = 0.3; IndependentPanelFrame.BorderSizePixel = 1; IndependentPanelFrame.BorderColor3 = Color3.new(1,1,1)
 IndependentPanelFrame.Visible = false; IndependentPanelFrame.Active = true
-local IPCorner = Instance.new("UICorner", IndependentPanelFrame); IPCorner.CornerRadius = UDim.new(0, 0)
+local IPCorner = Instance.new("UICorner", IndependentPanelFrame)
 local IPListLayout = Instance.new("UIListLayout", IndependentPanelFrame)
 IPListLayout.Padding = UDim.new(0, 5); IPListLayout.SortOrder = Enum.SortOrder.LayoutOrder; IPListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center; IPListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 
