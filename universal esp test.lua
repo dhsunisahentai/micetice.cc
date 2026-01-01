@@ -112,7 +112,7 @@ local Default = {
         Breath = true
     },
     FOV = {
-        Properties = {On = true, Mode = 'center', Type = '', Color = Color3.fromRGB(255,255,255), Radius = 150, Transparency = 0.55},
+        Properties = {On = false, Mode = 'center', Type = '', Color = Color3.fromRGB(255,255,255), Radius = 150, Transparency = 0.55},
         Outline = {On = true, Color = Color3.fromRGB(255,255,255), Transparency = 0, Thickness = 1}
     },
     Skeleton = {
@@ -1635,7 +1635,7 @@ local function update_fov_position(fov, mode)
         local mouse_pos = uis:GetMouseLocation()
         fov.Position = UDim2.new(0, mouse_pos.X - gui_inset.X, 0, mouse_pos.Y - gui_inset.Y)
     elseif mode == 'Center' then
-        fov.Position = UDim2.new(0, 0, 0, 0)
+        fov.Position = UDim2.new(0.5, 0, 0.5, 0)
     end
 end
 run_service.RenderStepped:Connect(function()
