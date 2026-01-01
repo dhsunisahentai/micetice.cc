@@ -6,12 +6,14 @@
 
 ## micetice.cc
 a roblox script,but FREE and FULL OPEN SOURCE with 100% SKIDDED(xd)
-Made with Love from Micetice Team
-Dev: dhsun1337
+<br>
+Made with Love from Micetice Team: dhsun1337
 
 ## Support Games:
 Universal (ESP & Silent Aim)
+<br>
 Prison Life (Use Universal ESP & Silent Aim)
+<br>
 Operation One (ESP Only)
 
 ## Loadstring
