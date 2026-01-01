@@ -1635,7 +1635,7 @@ local function update_fov_position(fov, mode)
         local mouse_pos = uis:GetMouseLocation()
         fov.Position = UDim2.new(0, mouse_pos.X - gui_inset.X, 0, mouse_pos.Y - gui_inset.Y)
     elseif mode == 'Center' then
-        fov.Position = UDim2.new(0.5, 0, 0.5, 0)
+        fov.Position = UDim2.new(0, 0, 0, 0)
     end
 end
 run_service.RenderStepped:Connect(function()
