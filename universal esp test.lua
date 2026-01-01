@@ -1648,7 +1648,7 @@ run_service.RenderStepped:Connect(function()
     update_fov_position(fov, Default.FOV.Properties.Mode)
     local mouse_location = uis:GetMouseLocation()
     local gui_inset = gui:GetGuiInset()
-    watermark.Position = UDim2.new(0, mouse_location.X - gui_inset.X, 0, mouse_location.Y - gui_inset.Y + 30)
+    watermark.Position = UDim2.new(0.5, 0, 0.5, 0)
     
     local breathe_effect = (math.atan(math.sin(tick() * 2)) + math.pi / 2) / math.pi
     for _, data in pairs(active_highlights) do
