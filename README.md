@@ -21,6 +21,10 @@ Universal ESP:
 ```luau
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dhsunisahentai/micetice.cc/refs/heads/main/universal%20esp.lua", true))()
 ```
+Universal ESP but without Tracers and Crosshair:
+```luau
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dhsunisahentai/micetice.cc/refs/heads/main/universal%20esp%20but%20without%20crosshair.lua", true))()
+```
 Universal Silent Aim:
 ```luau
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dhsunisahentai/micetice.cc/refs/heads/main/silentaim.lua", true))()
