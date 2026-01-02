@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dhsunisahentai/micetice.cc/refs/heads/main/disable%20oo%20ac.lua"))()
 local core_gui = cloneref(game:GetService('CoreGui'))
 local fonts = {
     {"ProggyClean.ttf", "ProggyClean.json", "https://raw.githubusercontent.com/suspendthread/uwu/refs/heads/main/dependencies/assets/fonts/ProggyClean.txt"},
